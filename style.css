@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    font-size: 1.5em;
+}
+header {
+    font-size: 2.5em;
+    text-align: center;
+}
+section {
+    margin: 10%;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+}
+p {
+    border-style: solid;
+    text-align: center;
+}
