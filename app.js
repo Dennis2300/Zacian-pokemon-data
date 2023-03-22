@@ -31,23 +31,26 @@ function initApp() {
 function showPokemon(pokemon) {
 console.log("Pokemon: Zacian");
 const pokemonZacian = /*HTML*/ `
-<article1>
+<article>
+<h1>Zacian</h1>
 <image src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/888.png"></image><br>
-<p>${pokemon.description}</p>
-<li>Pokemon Name: ${pokemon.name}</li>
-<li>Pokedex Nr: #${pokemon.dexIndex}</li>
-<li>Category: ${pokemon.category}</li>
-<li>Ability: ${pokemon.ability}</li>
-<li>Type: ${pokemon.type}</li>
-<li>Weakness: ${pokemon.weakness} & ${pokemon.weakness2}</li>
-<li>Weight: ${pokemon.weight} kg</li>
-<li>Gender: ${pokemon.gender}</li>
-<li>Generation: ${pokemon.generation}</li>
-<li>Height: ${pokemon.height} meter</li>
-</article1>
+<div id="parent">
+    <p>${pokemon.description}</p>
+    <li>Pokemon Name: ${pokemon.name}</li>
+    <li>Pokedex Nr: #${pokemon.dexIndex}</li>
+    <li>Category: ${pokemon.category}</li>
+    <li>Ability: ${pokemon.ability}</li>
+    <li>Type: ${pokemon.type}</li>
+    <li>Weakness: ${pokemon.weakness} & ${pokemon.weakness2}</li>
+    <li>Weight: ${pokemon.weight} kg</li>
+    <li>Gender: ${pokemon.gender}</li>
+    <li>Generation: ${pokemon.generation}</li>
+    <li>Height: ${pokemon.height} meter</li>
+</div>
+</article>
 `
 const pokemonZacianStats = /*HTML*/`
-<article2>
+<article>
 <h2>Pokemon Stats</h2>
 <li>Health: ${pokemon.health}</li>
 <li>Speed: ${pokemon.speed}</li>
@@ -55,7 +58,7 @@ const pokemonZacianStats = /*HTML*/`
 <li>Defense: ${pokemon.defense}</li>
 <li>Special Attack: ${pokemon.specialAttack}</li>
 <li>Special Defense: ${pokemon.specialDefense}</li>
-</article2>
+</article>
 `
 document.querySelector("#pokemons").insertAdjacentHTML("beforeend", pokemonZacian);
 document.querySelector("#pokemons").insertAdjacentHTML("beforeend", pokemonZacianStats);
