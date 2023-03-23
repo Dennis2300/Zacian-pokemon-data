@@ -55,7 +55,7 @@ const pokemonZacian = /*HTML*/ `
     </div>
 </article>
 `
-const pokemonZacianStats = /*HTML*/`
+const pokemonZacianStats = /*html*/ `
 <article>
 <h2>Pokemon Stats</h2>
 <li>Health: ${pokemon.health}</li>
