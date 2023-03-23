@@ -32,7 +32,7 @@ function initApp() {
 
 function showPokemon(pokemon) {
 console.log("Pokemon: Zacian");
-const pokemonZacian = /*HTML*/ `
+const pokemonZacian = /*html*/ `
 <article>
 <h1>Zacian</h1>
 <image src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/888_f2.png"></image><br>
@@ -55,7 +55,7 @@ const pokemonZacian = /*HTML*/ `
     </div>
 </article>
 `
-const pokemonZacianStats = /*html*/ `
+const pokemonZacianStats =/*html*/`
 <article>
 <h2>Pokemon Stats</h2>
 <li>Health: ${pokemon.health}</li>
