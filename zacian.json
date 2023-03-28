@@ -14,11 +14,11 @@
     "generation": 8,
     "spilversion":"Pokemon Sword",
     "canEvolve": false,
-    "statsHP": 60,
-    "statsAttack": 80,
-    "statsDefence": 70,
-    "statsSpecialAttack": 70,
-    "statsSpecialDefence": 90,
-    "statsSpeed": 50,
+    "statsHP": 6,
+    "statsAttack": 8,
+    "statsDefence": 7,
+    "statsSpecialAttack": 7,
+    "statsSpecialDefence": 9,
+    "statsSpeed": 5,
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/888_f2.png"
 } 
